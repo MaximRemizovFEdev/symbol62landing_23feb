@@ -1,0 +1,67 @@
+.header {
+    width: 100%;
+    background-color: #FF5708;
+    color: aliceblue;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000; /* чтобы header всегда был сверху */
+}
+
+.quickContact {
+    background: #293D59;
+    padding: 10px 8px;
+    display: flex;
+}
+
+.quickContactMenu {
+    flex-grow: 1;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.nav {
+    padding: 10px 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative; /* Для позиционирования выпадающего меню */
+    height: 40px;
+}
+
+.navlink {
+    color: #ffffff;
+    text-decoration: none;
+    white-space: nowrap;
+    word-wrap: none;
+    padding-right: 15px;
+}
+
+.burger {
+    cursor: pointer;
+    padding: 10px;
+}
+
+.dropdown {
+    position: absolute;
+    top: 100%; /* Чтобы выпадающее меню было под навигацией */
+    right: 0;
+    background: #FF5708;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    z-index: 1001; /* Чтобы дропдаун был выше других элементов */
+    display: flex;
+    flex-direction: column;
+}
+
+.dropdownItem {
+    padding: 15px 25px;
+}
+
+.navLink:hover {
+    background: #8a4714;
+}
+
+.dropdownItem:hover {
+    background: #8a4714;
+}

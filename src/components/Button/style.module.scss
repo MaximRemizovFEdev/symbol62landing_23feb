@@ -1,0 +1,38 @@
+.btn {
+    width: 100%;
+    border: 2px solid #FF5708;
+    color: #FFFFFF;
+    font-size: 16px;
+    text-transform: uppercase;
+    border-radius: 10px;
+    cursor: pointer;
+    outline: none;
+    text-decoration: none;
+    display: block;
+    /* text-wrap: nowrap; */ /*???*/
+    text-align: center;
+    background: none;
+}
+
+.fill {
+    background-color: #FF5708;
+}
+.fill:hover {
+    background-color: rgba(255, 87, 8, 0.2);
+}
+
+.stroke:hover {
+    background-color: #FF5708;
+}
+
+.big {
+    max-width: 280px;
+    height: 60px;
+    padding: 16px 34px;
+}
+
+.small {
+    max-width: 280px;
+    height: 35px;
+    padding: 4px 17px;
+}
